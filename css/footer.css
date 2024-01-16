@@ -1,9 +1,10 @@
 #footer{
-    background-image: url(../img/full_img.jpg);
+    background-image: url(../img2/full_img.jpg);
     background-size: 2000px;
     color: #fff;
     padding: 20px;
     font-family: 'NotoSansKR-Black';
+    background-size: 250%;
 }
 
 #footer h2{
