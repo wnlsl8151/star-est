@@ -1,15 +1,17 @@
 #footer{
-    background-image: url(../img2/full_img.jpg);
+    background-image: url(../img2/row.png);
     background-size: 2000px;
     color: #fff;
     padding: 20px;
-    font-family: 'NotoSansKR-Black';
-    background-size: 250%;
+    font-family: 'NotoSansKR-Regular';
+    background-size: 100%;
+    padding-top: 100px;
 }
 
 #footer h2{
     font-weight: 700;
-    font-size: 15px;
+    /* font-size: 15px; */
+    font-size: 24px;
     border-bottom: 1px solid #fff;
     padding-bottom: 20px;
     text-align: left;
@@ -34,16 +36,28 @@
 
 #footer ul li{
     margin-bottom: 7px;
-    font-weight: 900;
-    font-size: 12px;
+    /* font-weight: 900; */
+    /* font-size: 12px; */
+    font-size: 24px;
+    font-size: 24px;
     color: #b0b0b0;
 }
 
 #footer .txt{
     display: block;
-    font-size: 13px;
+    font-size: 24px;
+    /* font-size: 13px; */
     width: 800px;
     text-align: left;
     margin: 0 auto;
     color:#ffffff;
+}
+
+#footer a{
+    font-size: 24px;
+}
+
+#footer p{
+    font-size: 24px;
+    margin-bottom: 80px;
 }

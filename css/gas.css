@@ -11,7 +11,7 @@
     left: 10%;
     font-size: 72px;
     font-family: 'D-DIN';
-    margin-top: 160px;
+    margin-top: 120px;
 }
 
 #container-pre9{
@@ -24,7 +24,7 @@
 }
 
 #sec01 img{
-    margin-top: 100px;
+    margin-top: 56px;
 }
 
 #sec02{
@@ -42,7 +42,7 @@
 
 #sec02 p{
     font-family: 'NotoSansKR-Regular';
-    font-size: 16px;
+    font-size: 17px;
 }
 
 #sec03 {
@@ -236,6 +236,7 @@
     /* left: 0; */
     bottom: 0;
     width: 1200px;
+    /* height: 45px */
     margin: 0 150px;
     background-color: #fff;
     color: #262626;
@@ -249,7 +250,7 @@
 }
 
 #price b,#price span{
-    font-size: 24px;
+    font-size: 38px;
 }
 
 #total{
@@ -269,5 +270,6 @@ h5{
 
 .sectxt{
     font-size: 32px;
+    font-weight: 400;
 }
 
