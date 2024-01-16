@@ -190,6 +190,20 @@ right:5%;
     width: 100%;
 }
 
+.sw{
+    width: 20px;
+    position: absolute;
+    left: 420px;
+    top: 100px;
+}
+
+.dw{
+    position: absolute;
+    width: 60px;
+    top: 82px;
+    left: 440px;
+}
+
 
 
 

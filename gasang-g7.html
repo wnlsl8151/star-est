@@ -59,7 +59,7 @@ window.addEventListener("scroll", function() {
         }
 
         #container-pre9{
-            width: 90%;
+            width: 100%;
             margin: 0 auto;
         }
 
@@ -68,22 +68,30 @@ window.addEventListener("scroll", function() {
             top: 50%;
         }
 
+        .main-con{
+            width: 90%;
+        }
+
 
         #sec02{
+            margin-left: 330px;
             margin-bottom: 150px;
             width: 70%;
         }
 
+
+
         #sec03{
             margin-bottom: 150px;
+            margin-left: 150px;
         }
 
         #sec03 p{
             color: #fff;
-            margin: 0 240px;
+            margin: 0 auto;
             text-align: center;
             background-color: #456985;
-            width: 1200px;
+            width: 1197px;
             text-shadow: none;
             padding-top: 10px;
             padding-bottom: 10px;
@@ -101,7 +109,7 @@ window.addEventListener("scroll", function() {
             font-family: 'NotoSansKR-Medium';
             width: 100%;
             margin: 0 auto;
-            margin-left: 240px;
+            margin-left: 333px;
             /* margin-bottom: 10px; */
         }
 
@@ -233,7 +241,6 @@ window.addEventListener("scroll", function() {
             width: 65%;
             margin: 0 auto;
             margin-bottom: 30px;
-            font-size: 18px;
             font-weight: 700;
         }
 
@@ -241,15 +248,6 @@ window.addEventListener("scroll", function() {
             display: none;
         }
 
-
-        #price .total-txt{
-            width: 170px;
-            text-align: right;
-        }
-
-        .sectxt{
-            font-size: 32px;
-        }
 
 
 
@@ -337,10 +335,12 @@ window.addEventListener("scroll", function() {
                 <h2 class="h2-01" style="font-size: 72px; margin-left: 10px; top: 580px; font-weight: 100; ">Estimate</h2>
             </section>
 
+
+            <div class="main-con">
             <!-- 섹션02 -->
             <section id="sec02">
-                <h3 style="font-family: 'NotoSansKR-Medium';">가상견적</h3>
-                <p style="font-size: 15px; font-family: 'NotoSansKR-Regular';">
+                <h3 style="font-family: 'NotoSansKR-Medium'; font-size: 50px;">가상견적</h3>
+                <p style="font-family: 'NotoSansKR-Regular'; font-size: 18px;">
                     고객의 취향에 따라 옵션을 선택하여 대략의 구매금액을 추정해 보는 가상견적 프로그램 입니다. <br>
                     실제 최종견적과는 다소 달라질 수 있습니다.
                 </p>
@@ -567,7 +567,7 @@ window.addEventListener("scroll", function() {
                             <input type="checkbox" name="chk" id="chk" class="out cb"  value="1190000" onclick="CheckChoice()" style="width: 30px;">
                             <div class="txtsub-list" style="text-align: center; width: 60%;">
                                 <p class="co">
-                                    컴포트 <br>
+                                    컴포트
                                     (7인승)
                                 </p>
                         </div>
@@ -578,9 +578,9 @@ window.addEventListener("scroll", function() {
                             <img src="./img/wize.png" alt="">
                             <div class="engine-model">
                                 <input type="checkbox" name="chk" id="chk" class="out cb"  value="790000" onclick="CheckChoice()" style="width: 30px;">
-                                <div class="txtsub-list" style="text-align: center; width: 65%;">
-                                    <p class="co">
-                                        드라이브 와이즈 <br>
+                                <div class="txtsub-list" style="text-align: center; width: 100%;">
+                                    <p class="co" style="margin-left: 30px;">
+                                        드라이브 와이즈
                                         (그래비티)
                                     </p>
                             </div>
@@ -593,7 +593,7 @@ window.addEventListener("scroll", function() {
                             <div class="engine-model">
                                 <input type="checkbox" name="chk" id="chk" class="out cb"  value="1270000" onclick="CheckChoice()" style="width: 30px;">
                                 <div class="txtsub-list" style="text-align: center; width: 60%;">
-                                    <p class="co" style="padding-top: 12px; padding-bottom: 13px;">
+                                    <p class="co">
                                         HUD+빌트인 캠 2
                                     </p>
                             </div>
@@ -606,9 +606,9 @@ window.addEventListener("scroll", function() {
                         <img src="./img/style.png" alt="">
                         <div class="engine-model">
                             <input type="checkbox" name="chk" id="chk" class="cb"  value="630000" onclick="CheckChoice()" style="width: 30px;">
-                            <div class="txtsub-list" style="text-align: center; width: 65%;">
-                                <p class="co">
-                                    KRELL 프리미엄 <br> 사운드
+                            <div class="txtsub-list" style="text-align: center; width: 100%;">
+                                <p class="co" style="margin-left: 30px;">
+                                    KRELL 프리미엄 사운드
                                 </p>
                         </div>
                         </div>
@@ -618,9 +618,9 @@ window.addEventListener("scroll", function() {
                             <img src="./img/wize.png" alt="">
                             <div class="engine-model">
                                 <input type="checkbox" name="chk" id="chk" class="cb"  value="1270000" onclick="CheckChoice()" style="width: 30px;">
-                                <div class="txtsub-list" style="text-align: center; width: 65%;">
-                                    <p class="co">
-                                        모니터링 팩 <br>
+                                <div class="txtsub-list" style="text-align: center; width: 100%;">
+                                    <p class="co" style="margin-left: 30px;">
+                                        모니터링 팩
                                         (그래비티)
                                     </p>
                             </div>
@@ -632,7 +632,7 @@ window.addEventListener("scroll", function() {
                                 <img src="./img/hibrid.png" alt="">
                             <div class="engine-model">
                                 <input type="checkbox" name="chk" id="chk" class="out cb"  value="1110000" onclick="CheckChoice()" style="width: 30px;">
-                                <p class="sel" style="padding-top: 12px; padding-bottom: 13px;">
+                                <p class="sel">
                                     스마트커넥트
                                 </p>
                             </div>
@@ -681,7 +681,7 @@ window.addEventListener("scroll", function() {
             
             <!-- 중앙스페셜무드등 -->
             <h5>중앙 스페셜 무드등</h5>
-            <section id="sec05-1" class="img">
+            <section id="sec05-1" class="img" style="margin-bottom: 50px;">
                 <div class="est-img">
                     <div class="engine">
                         <img src="./img/몬드리안.jpg" alt="">
@@ -724,7 +724,7 @@ window.addEventListener("scroll", function() {
 
             <!-- 천장 내피 트리밍 색상 -->
             <h5>헤어라인 트리밍</h5>
-            <section id="sec05-1" class="img">
+            <section id="sec05-1" class="img" style="margin-bottom: 50px;">
                 <div class="est-img">
                     <div class="engine">
                         <img src="./img/high-banil.jpg" alt="">
@@ -766,7 +766,7 @@ window.addEventListener("scroll", function() {
 
             <!-- 헤어라인 -->
             <h5>천장 내피 트리밍</h5>
-            <section id="sec05-1" class="img">
+            <section id="sec05-1" class="img" style="margin-bottom: 50px;">
                 <div class="est-img">
                     <div class="engine">
                         <img src="./img/hair-banil.jpg" alt="">
@@ -1016,7 +1016,7 @@ window.addEventListener("scroll", function() {
 
             <!-- 1열(나파가죽교체) -->
             <h5>1열(나파가죽교체)</h5>
-        <section id="sec05-1" class="img long" style="margin-bottom: 50px;">
+        <section id="sec05-1" class="img long" style="margin-bottom: 0px;">
             <div class="est-img">
                 <div class="engine">
                     <img src="./img/limou.jpg" alt="">
@@ -1089,7 +1089,7 @@ window.addEventListener("scroll", function() {
 
             <!-- 2열(나파가죽교체) -->
             <h5>2열(나파가죽교체)</h5>
-        <section id="sec05-1" class="img" style="margin-bottom: 50px;">
+        <section id="sec05-1" class="img" style="margin-bottom: 0px;">
             <div class="est-img">
                 <div class="engine">
                     <img src="./img/prim7.jpg" alt="">
@@ -1172,7 +1172,7 @@ window.addEventListener("scroll", function() {
 
         <!-- 3열(나파가죽교체) -->
         <h5>3열(나파가죽교체)</h5>
-        <section id="sec05-1" class="img" style="margin-bottom: 50px;">
+        <section id="sec05-1" class="img" style="margin-bottom: 0px;">
             <div class="est-img">
                 <div class="engine">
                     <img src="./img/prim9.jpg" alt="">
@@ -1711,7 +1711,7 @@ window.addEventListener("scroll", function() {
                             </section>
 
                             <!-- <h5>인산철 베터리</h5> -->
-                        <section id="sec05-1" class="img">
+                        <section id="sec05-1" class="img" style="margin-bottom: 0;">
                             <div class="est-img">
                                 <div class="engine">
                                     <!-- <img src="./img/noimg.jpg" alt=""> -->
@@ -1889,7 +1889,6 @@ window.addEventListener("scroll", function() {
                         <!-- 사이드스텝 -->
                         <section id="sec05" class="txt">
                             <div class="txt-sec05">
-                                <h4 class="sectxt">사이드스텝</h4>
                                 <!-- <input type="checkbox" name="chk" id="chk" value="0" class="cb" onclick="CheckChoice()"> -->
                             </div>
                         </section>
@@ -1950,9 +1949,9 @@ window.addEventListener("scroll", function() {
                             <div class="engine">
                                 <img src="./img/honey.jpg" alt="">
                                 <div class="engine-model">
-                                    <input type="checkbox" name="chk" id="chk" class="out cb"  value="550000" onclick="CheckChoice()" style="width: 30px;">
-                                    <div class="txtsub-list" style="text-align: center; width: 65%;">
-                                        <p class="co">
+                                    <input type="checkbox" name="chk" id="chk" class="out cb"  value="550000" onclick="CheckChoice()" style="width: 30px; margin-right: 0;">
+                                    <div class="txtsub-list" style="text-align: center; width: 100%;">
+                                        <p class="co" style="margin-left: 0; width: 100%;">
                                           2열,3열 윈도우/트렁크 윈도우
                                         </p>
                                 </div>
@@ -1974,10 +1973,10 @@ window.addEventListener("scroll", function() {
                             <div class="engine">
                                 <img src="./img2/tire.jpg" alt="">
                                 <div class="engine-model">
-                                    <input type="checkbox" name="chk" id="chk" class="out cb"  value="7500000" onclick="CheckChoice()">
+                                    <input type="checkbox" name="chk" id="chk" class="out cb"  value="7500000" onclick="CheckChoice()" style="margin-right: 30px;">
                                     <div class="txtsub-list" style="text-align: center; width: 65%;">
                                         <p class="co" style="margin-left: 0; width: 100%;">
-                                          22인치 휠&콘티네탈타이어
+                                          22인치 휠 & 콘티넨탈타이어
                                         </p>
                                 </div>
                                 </div>
@@ -1988,7 +1987,7 @@ window.addEventListener("scroll", function() {
                         <section id="sec05" class="txt">
                             <div class="txt-sec05">
                                 <h4 class="sectxt">어닝</h4>
-                                <input type="checkbox" name="chk" id="chk" value="0" class="cb" onclick="CheckChoice()">
+                                <!-- <input type="checkbox" name="chk" id="chk" value="0" class="cb" onclick="CheckChoice()"> -->
                             </div>
                         </section>
 
@@ -2018,6 +2017,7 @@ window.addEventListener("scroll", function() {
                                 </div>
                                 </div>
                         </section>
+                    </div>
                     </div>
 
 

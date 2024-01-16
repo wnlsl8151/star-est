@@ -11,7 +11,16 @@
     left: 10%;
     font-size: 72px;
     font-family: 'D-DIN';
-    margin-top: 100px;
+    margin-top: 160px;
+}
+
+#container-pre9{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main-con{
+    width: 90%;
 }
 
 #sec01 img{
@@ -113,6 +122,10 @@
     text-shadow: 3px 4px 5px #000;
     margin-top: 2px;
     margin-bottom: 2px;
+}
+
+#sec05-1{
+    margin-bottom: 50ox;
 }
 
 .f1st{
@@ -228,8 +241,33 @@
     color: #262626;
     padding: 15px;
     text-align: center;
-    font-size: 25px;
+    font-size: 24px;
     border-top: 1px solid #b2b2b2;
     margin-left: 333px;
     transition: top 0.2s ease-in-out;
+    z-index: 999;
 }
+
+#price b,#price span{
+    font-size: 24px;
+}
+
+#total{
+    border: 1px solid #b2b2b2;
+    text-align: center;
+}
+
+#price .total-txt{
+    width: 400px;
+    height: 60px;
+    text-align: center;
+}
+
+h5{
+    font-size: 24px;
+}
+
+.sectxt{
+    font-size: 32px;
+}
+
