@@ -109,9 +109,9 @@ h1{
 .desk .phone p{
     display: flex;
     width: 400px;
-    margin-top: 10px;
-    font-size: 48px;
-    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 40px;
+    margin-left: 15px;
     font-family: 'D-DIN';
     padding-right: 40px;
 

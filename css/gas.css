@@ -45,6 +45,10 @@
     font-size: 19px;
 }
 
+.fontw{
+    font-weight: 500;
+}
+
 #sec03 {
     display: flex;
     margin-bottom: 2px;
@@ -266,16 +270,12 @@
 
 h5{
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
     font-family: 'NotoSansKR-Medium';
 }
 
 .sectxt{
     font-size: 32px;
     font-weight: 400;
-}
-
-h5{
-    font-weight: 500;
 }
 
