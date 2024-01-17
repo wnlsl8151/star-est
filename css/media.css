@@ -1,5 +1,9 @@
 @media (max-width:430px) {
 
+    html{
+        max-width: 430px;
+    }
+
     /* 모바일 헤더 */
 
    .desk{
@@ -24,12 +28,12 @@
    .mobile #navbtn{
     display: block;
     width: 25px;
-    margin-top: 5px;
+    margin-top: 12px;
    }
 
    .mobile #navbtnC{
     width: 25px;
-    margin-top: 5px;
+    margin-top: 12px;
    }
 
    #navM{
@@ -59,13 +63,20 @@
    /* 모바일 섹션01 */
 
    #sec01 h2{
-    top: 20%;
+    top: 25%;
     left: 5%;
     font-size: 30px;
    }
 
+   #sec01 img{
+    width: 430px;
+    height: 220px;
+   }
    /* 모바일 섹션02 */
 
+   #sec02{
+    margin-top: 0;
+   }
    #sec02 h2{
     font-size: 30px;
     text-align: center;

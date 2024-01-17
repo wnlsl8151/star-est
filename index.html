@@ -19,7 +19,7 @@
     <!-- SNS 공유시 보여질 설명 -->
     <meta property="og:description" content="공유시 보여질 설명">
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="/css/font.css">
+    <link rel="stylesheet" href="./css/font.css">
     <!-- <link rel="stylesheet" href="./css/header.css"> -->
     <link rel="stylesheet" href="./css/gasang-head.css">
     <link rel="stylesheet" href="./css/footer.css">
@@ -183,6 +183,14 @@
         
 
         @media (max-width:430px) {
+
+            body{
+                width: 430px;
+            }
+            #header{
+                width: 430px;
+            }
+            
             #sec01 .main-imgbox{
                 margin-top: 0;
             }
@@ -193,13 +201,14 @@
 
             #sec-tel{
                 display: block;
-                height: 55px;
+                height: 70px;
                 margin-bottom: 2px;
+                width: 430px;
             }
 
             #sec-tel h2{
                 font-size: 20px;
-                top: 25%;
+                top: 26%;
             }
 
             #sec02{
@@ -214,11 +223,14 @@
             #sec02 .custom-img{
                 margin-bottom: 2px;
                 margin-right: 0;
+                width: 430px;
             }
 
             #sec02 .custom-img .sec02-subtxt{
                 position: absolute;
-                top: 40%;
+                top: 42%;
+                left: 1%;
+                border: none;
             }
 
             #sec02 .custom-img .sec02-subtxt .cush2{
@@ -233,6 +245,7 @@
 
             #sec02 .cus-right{
                 margin-bottom: 0;
+                width: 430px;
             }
 
             #sec02 .cus-right ul{
@@ -242,7 +255,7 @@
             #sec02 .cus-right ul .sec02-subtxt2{
                 position: absolute;
                 top: 85%;
-                left: 3%;
+                left: 1%;
             }
 
             #sec02 .cus-right ul .sec02-subtxt2 h2{
@@ -258,7 +271,7 @@
             #sec02 .cus-right ul .sec02-subtxt3{
                 position: absolute;
                 top: 85%;
-                right: 7%;
+                left: 54%;
             }
 
             #sec02 .cus-right ul .sec02-subtxt3 h2{
@@ -279,12 +292,13 @@
             #sec03 .brand{
                 margin-right: 0;
                 margin-bottom: 2px;
+                width: 430px;
             }
 
             #sec03 .brand .sec02-subtxt{
                 position: absolute;
                 top: 55%;
-                left: 5%;
+                left: 1%;
             }
 
             #sec03 .brand .sec02-subtxt h2{
@@ -302,6 +316,7 @@
 
             #sec04{
                 position: relative;
+                width: 430px;
             }
 
             #sec04 ul li h2,#sec04 ul li p{
@@ -320,6 +335,16 @@
 
             .gogaek-one{
                 display: none;
+            }
+
+            #footer{
+                width: 430px;
+                margin-bottom: 0;
+                background-size: 2000px;
+            }
+
+            #footer .txt p{
+                font-size: 17px;
             }
         }
 
@@ -375,7 +400,7 @@
             <!-- 모바일 헤더 -->
             <div class="mobile">
                 <div class="logoM">
-                    <img src="./img/logo_gold.png" alt="">
+                    <img src="./img/스타리무진 로고 앰블럼.png" alt="">
                 </div>
                 <!-- <h2>The One and Only Carnival Hi Limousine</h2> -->
                 <div id="navbtn">
@@ -386,7 +411,7 @@
                 </div>
             </div>
             <nav id="navM">
-                <ul>
+                <ul style="display: block;">
                     <li><a href="./index.html">홈</a></li>
                     <li><a href="./about.html">회사소개</a></li>
                     <li><a href="./model.html">모델</a></li>
@@ -412,7 +437,7 @@
 
         <!-- 전화연결 -->
         <section id="sec-tel"><a href="tel:1588-8216">
-            <img src="./img/full_img.jpg" alt="">
+            <img src="./img2/full_img.jpg" alt="">
             <h2>☎ 1588-8216</h2>
         </a>
         </section>
@@ -474,7 +499,7 @@
                     <p>수주팔공차</p>
                 </li>
                 <li class="gogaek-one">
-                    <a href="#"><img src="./img/gogaek-img.png" alt=""></a>
+                    <a href="#"><img src="./img2/gogaek-img.jpg" alt=""></a>
                     <h2>고객지원</h2>
                     <p>궁금증을 해결하세요</p>
                 </li>
