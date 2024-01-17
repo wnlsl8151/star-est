@@ -301,6 +301,10 @@ function lastClose(){
     document.getElementById('last-sub').style.display = 'none';
 }
 
+function btnNext1(){
+    document.getElementById('popup').style.display = 'block';
+}
+
 
 
   
